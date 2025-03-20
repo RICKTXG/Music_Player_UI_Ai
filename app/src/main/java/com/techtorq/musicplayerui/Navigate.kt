@@ -5,11 +5,11 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.techtorq.musicplayerui.Screens.ChatGPT
-import com.techtorq.musicplayerui.Screens.Claude
-import com.techtorq.musicplayerui.Screens.DeepSeek
-import com.techtorq.musicplayerui.Screens.Devin
-import com.techtorq.musicplayerui.Screens.Gemini
+import com.techtorq.musicplayerui.screens.ChatGPT
+import com.techtorq.musicplayerui.screens.Claude
+import com.techtorq.musicplayerui.screens.DeepSeek
+import com.techtorq.musicplayerui.screens.Gemini
+//k
 
 @Composable
 fun NavigateAll(){
@@ -20,9 +20,6 @@ fun NavigateAll(){
         }
         composable(Routes.ChatGPT) {
             ChatGPT()
-        }
-        composable(Routes.Devin) {
-            Devin()
         }
         composable(Routes.DeepSeeK) {
             DeepSeek()

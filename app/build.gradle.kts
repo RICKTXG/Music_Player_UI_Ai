@@ -40,6 +40,9 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.compose.material3:material3:1.2.0")
+    implementation ("androidx.compose.ui:ui:1.6.0")
+    implementation ("androidx.compose.foundation:foundation:1.6.0")
     implementation("androidx.compose.ui:ui-text-google-fonts:1.2.0")
     val nav_version = "2.8.7"
 

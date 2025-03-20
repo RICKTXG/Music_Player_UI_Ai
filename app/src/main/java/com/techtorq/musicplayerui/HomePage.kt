@@ -40,23 +40,8 @@ fun HomePage(navController: NavController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
+
         //Button #2
-        Button(
-            onClick = {navController.navigate(Routes.Devin)},
-            colors = ButtonDefaults.buttonColors(containerColor = Color.Black),
-            shape = RoundedCornerShape(12.dp),
-            modifier = Modifier.width(110.dp)
-        )
-        {
-            Text(
-                text = "Devin",
-                color = Color.White
-            )
-        }
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        //Button #3
         Button(
             onClick = {navController.navigate(Routes.DeepSeeK)},
             colors = ButtonDefaults.buttonColors(containerColor = Color.Black),
@@ -72,7 +57,7 @@ fun HomePage(navController: NavController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        //Button #4
+        //Button #3
         Button(
             onClick = {navController.navigate(Routes.Claude)},
             colors = ButtonDefaults.buttonColors(containerColor = Color.Black),
@@ -88,7 +73,7 @@ fun HomePage(navController: NavController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        //Button #5
+        //Button #4
         Button(
             onClick = {navController.navigate(Routes.Gemini)},
             colors = ButtonDefaults.buttonColors(containerColor = Color.Black),
